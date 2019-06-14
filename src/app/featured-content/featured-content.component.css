@@ -11,17 +11,17 @@
   transform: none;
   margin-bottom: 25px;
 }
-.featured__main-box {
-  float: right;
-  margin-left: -410px;
-  width: 100%;
-  position: relative;
-  display: inline;
+/*.featured__main-box {*/
+/*  float: right;*/
+/*  margin-left: -410px;*/
+/*  width: 100%;*/
+/*  position: relative;*/
+/*  display: inline;*/
 
 
-}
+/*}*/
 h4 {
-  color: #222;
+  color: white;
   text-align: center;
   font-size: 1.7rem;
   font-weight: 700;
@@ -32,7 +32,7 @@ h4 {
 }
 
 p{
-  color: #222;
+  color: white;
   text-align: center;
   font-size: 1.7rem;
   font-weight: 300;

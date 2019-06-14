@@ -1,12 +1,15 @@
 
-<div class="body">
-  <div class="container">
+
+  <div id="wrap" class="container">
     <app-nav (sendId)="open($event)"></app-nav>
     <div id="home" *ngIf="home === true">
       <app-header-list [childHeaderList]="masterHeader"></app-header-list>
       <app-featured-content [childFeatured]="masterFeatured"></app-featured-content>
+
       <app-news-feed [childNewsList]="masterNews"></app-news-feed>
+
     </div>
+
     <div id="movies" *ngIf="movies === true">
       <app-movies [childMovieList]="masterMovies"></app-movies>
     </div>
@@ -16,5 +19,5 @@
 
   </div>
 
-</div>
+
 

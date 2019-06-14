@@ -1,0 +1,53 @@
+.header-title {
+  color: white;
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-align: center;
+  width: 100%;
+  transform: none;
+  margin-bottom: 25px;
+}
+.featured__main-box {
+  float: right;
+  margin-left: -410px;
+  width: 100%;
+  position: relative;
+  display: inline;
+
+
+}
+span {
+  color: white;
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 700;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  width: 100%;
+}
+h1 {
+  color: white;
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 300;
+  letter-spacing: -.02em;
+  line-height: 1.1;
+  width: 100%;
+}
+
+img {
+  float:left;
+  height: 228px;
+  width: 380px;
+
+}
