@@ -5,6 +5,9 @@ look through genres of movies and TV shows to find something new to watch. Fun f
 
 ## Development server
 
+## Features
+User is able to switch pages and look at different topics. Future plans will include reviews, and editing/creating new movies and TV shows
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
