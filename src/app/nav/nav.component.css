@@ -1,0 +1,31 @@
+.main__img {
+  text-align: center;
+}
+
+.main__nav-list--content {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.main__nav-list--content a{
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #0D0D0D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
