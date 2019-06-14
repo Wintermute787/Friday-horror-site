@@ -3,7 +3,7 @@ import { Header} from './models/header.model';
 import {Featured} from './models/featured-content.model';
 import {News} from './models/news.model';
 import {Movies} from './models/movies.model';
-import {TV} from "./models/TV.model";
+import {TV} from './models/TV.model';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +12,8 @@ import {TV} from "./models/TV.model";
 })
 export class AppComponent {
   title = 'horror-site';
+
+
 
   masterHeader: Header[] = [
     // tslint:disable-next-line:max-line-length
@@ -36,7 +38,7 @@ export class AppComponent {
     // tslint:disable-next-line:max-line-length
     new News('https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2019/05/Screen-Shot-2019-05-29-at-2.09.02-PM.png?resize=400%2C240&ssl=1', 'Images', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula turpis non nulla ullamcorper, vitae congue risus dictum. Aenean accumsan lorem et lorem condimentum.'),
     // tslint:disable-next-line:max-line-length
-    new News('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/photo.jpg?resize=400%2C240&ssl=1','Images', 'Aliquam ut commodo sem. Nam commodo molestie ornare. Vestibulum ligula lorem, aliquam blandit eros at, vehicula finibus mi.'),
+    new News('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/photo.jpg?resize=400%2C240&ssl=1', 'Images', 'Aliquam ut commodo sem. Nam commodo molestie ornare. Vestibulum ligula lorem, aliquam blandit eros at, vehicula finibus mi.'),
     // tslint:disable-next-line:max-line-length
     new News('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/plaguetale.jpg?resize=400%2C240&ssl=1', 'Movies', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa. '),
     // tslint:disable-next-line:max-line-length
@@ -73,5 +75,49 @@ export class AppComponent {
     new Movies('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/under-the-dome.jpg?resize=400%2C240&ssl=1', 'TV', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.'),
     // tslint:disable-next-line:max-line-length
     new Movies('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/lobo-sysy.jpg?resize=400%2C240&ssl=1', 'Review', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.'),
-  ]
+  ];
+
+  selectedMovie: Movies;
+  selectedTv: TV;
+
+  home = true;
+  movies = false;
+  tv = false;
+  newMovie = false;
+  newTv = false;
+  editMovie = false;
+  editTv = false;
+
+  open(id) {
+    if (id === 1) {
+      this.home = true;
+      this.movies = false;
+      this.tv = false;
+      this.newMovie = false;
+      this.newTv = false;
+      this.editMovie = false;
+      this.editTv = false;
+
+    } else if (id === 2) {
+      this.home = false;
+      this.movies = true;
+      this.tv = false;
+      this.newMovie = false;
+      this.newTv = false;
+      this.editMovie = false;
+      this.editTv = false;
+
+    } else if (id === 3) {
+      this.home = false;
+      this.movies = false;
+      this.tv = true;
+      this.newMovie = false;
+      this.newTv = false;
+      this.editMovie = false;
+      this.editTv = false;
+    }
+  }
+
+
+
 }
