@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderListComponent } from './header-list/header-list.component';
 import { NavComponent } from './nav/nav.component';
 import { FeaturedContentComponent } from './featured-content/featured-content.component';
+import { NewsFeedComponent } from './news-feed/news-feed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderListComponent,
     NavComponent,
-    FeaturedContentComponent
+    FeaturedContentComponent,
+    NewsFeedComponent
   ],
   imports: [
     BrowserModule,
