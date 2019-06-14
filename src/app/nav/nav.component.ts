@@ -8,7 +8,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class NavComponent  {
   @Output() sendId = new EventEmitter();
 
-  getId(num: number){
+  getId(num: number) {
     this.sendId.emit(num);
   }
 
