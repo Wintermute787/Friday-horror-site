@@ -1,6 +1,8 @@
 .main__img {
-  text-align: center;
-}
+   text-align: center;
+   max-width: 100%;
+   height: auto;
+ }
 
 .main__nav-list--content {
   display: flex;

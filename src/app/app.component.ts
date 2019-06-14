@@ -22,7 +22,7 @@ export class AppComponent {
 
   masterFeatured: Featured[] = [
     // tslint:disable-next-line:max-line-length
-    new Featured('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/banana-splits-movie-trailer.png?resize=590%2C354&ssl=1', 'Movies', 'The Rated R Banana Splits Movie puts a violent, gory spin on the classic childrens show'),
+    new Featured('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/banana-splits-movie-trailer.png?resize=590%2C354&ssl=1', 'Movies', 'The Rated R Banana Splits Movie puts a violent, gory spin on the classic children\'s show'),
     // tslint:disable-next-line:max-line-length
     new Featured( 'https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/Bloody-Disgusting-The-Shining-Doctor-Sleep-Oculus-Mirror-Lasser-Glass.jpg?resize=590%2C354&ssl=1', 'Interviews', 'The Oculus Mirror is Hidden in the overlook Hotel in Doctor Sleep'),
     // tslint:disable-next-line:max-line-length
