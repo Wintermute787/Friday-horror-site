@@ -1,6 +1,6 @@
 
-
-  <div id="wrap" class="container">
+<div class="wrap">
+  <div class="container">
     <app-nav (sendId)="open($event)"></app-nav>
     <div id="home" *ngIf="home === true">
       <app-header-list [childHeaderList]="masterHeader"></app-header-list>
@@ -18,6 +18,8 @@
     </div>
 
   </div>
+
+</div>
 
 
 

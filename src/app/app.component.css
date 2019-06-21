@@ -1,5 +1,5 @@
-#wrap {
-  background-color: white;
-
+:host {
+  background: url(https://bloody-disgusting.com/wp-content/uploads/2018/06/body-bg-2.png) no-repeat 50% 0;
+  display: block;
+  background-attachment: fixed;
 }
-
