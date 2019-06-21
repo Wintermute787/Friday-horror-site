@@ -1,13 +1,19 @@
-<div *ngFor="let featured of childFeatured">
-  <div class="featured__main">
-    <div>
-      <img src="{{featured.image}}" alt="">
+<div *ngFor="let feature of featured | async">
+
+  <div class="header">
+    <div class="tag">
+      <span>Reviews</span>
     </div>
-    <div class="featured__main-type">
-      <h4 class="featured__main-type-span">{{featured.type}}</h4>
+    <img src="{{feature.image}}" alt="">
+    <div class="header-title">
+      <h4>{{feature.title}}</h4>
+      <div class="header-text">
+        <p>{{feature.description}}</p>
+      </div>
+
     </div>
-    <div class="featured__main-description">
-      <p class="featured__main-description-p">{{featured.description}}</p>
-    </div>
+
+
   </div>
 </div>
+

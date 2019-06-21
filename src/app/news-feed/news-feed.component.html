@@ -1,9 +1,14 @@
-
-<div *ngFor="let news of childNewsList">
-
-  <div class="header-title">
+<div *ngFor="let news of news | async" class="featured__main">
+  <div>
     <img src="{{news.image}}" alt="">
-    <span>{{news.type}}</span>
-    <p>{{news.description}}</p>
+  </div>
+  <div class="featured__main-type">
+    <h4 class="featured__main-type-span">{{news.type}}</h4>
+  </div>
+  <div class="featured__main-title">
+    <p>{{news.title}}</p>
+  </div>
+  <div class="featured__main-description">
+    <p class="featured__main-description-p">{{news.description}}</p>
   </div>
 </div>
