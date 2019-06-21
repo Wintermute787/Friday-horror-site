@@ -14,6 +14,7 @@ import { MoviesComponent } from './movies/movies.component';
 import { TVComponent } from './tv/tv.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { VideoGamesComponent } from './video-games/video-games.component';
+import { HomeComponent } from './home/home.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -32,7 +33,8 @@ export const firebaseConfig = {
     MoviesComponent,
     TVComponent,
     ReviewsComponent,
-    VideoGamesComponent
+    VideoGamesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
