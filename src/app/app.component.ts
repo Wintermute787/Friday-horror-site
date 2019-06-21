@@ -34,7 +34,7 @@ export class AppComponent {
 
   ];
 
-  masterNews: News[] = [
+/*  masterNews: News[] = [
     // tslint:disable-next-line:max-line-length
     new News('https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2019/05/Screen-Shot-2019-05-29-at-2.09.02-PM.png?resize=400%2C240&ssl=1', 'Images', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula turpis non nulla ullamcorper, vitae congue risus dictum. Aenean accumsan lorem et lorem condimentum.'),
     // tslint:disable-next-line:max-line-length
@@ -48,7 +48,7 @@ export class AppComponent {
     // tslint:disable-next-line:max-line-length
     new News('https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/A23_promo_stills_022519.0037_R.jpg?resize=400%2C240&ssl=1', 'Movies', 'Suspendisse fermentum sapien in tortor facilisis, id convallis tortor viverra. Nulla facilisi.'),
 
-  ];
+  ];*/
 
   masterMovies: Movies[] = [
     // tslint:disable-next-line:max-line-length

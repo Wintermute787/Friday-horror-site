@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {News} from './models/news.model';
-import {}
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable({
   providedIn: 'root'
