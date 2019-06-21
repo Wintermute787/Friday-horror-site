@@ -16,19 +16,7 @@ export class AppComponent {
 
 
 
-  // masterMovies: Movies[] = [
-  //   // tslint:disable-next-line:max-line-length
-  //   new Movies('https://i2.wp.com/bloody-disgusting.com/wp-content/uploads/2019/05/rambo.png?resize=400%2C240&ssl=1', 'movie', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.'),
-  //   // tslint:disable-next-line:max-line-length
-  //   new Movies('https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2017/10/Black-Christmas-2.jpg?resize=400%2C240&ssl=1', 'movie', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.'),
-  //   // tslint:disable-next-line:max-line-length
-  //   new Movies('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/DS-11206r-e1560441816998.jpg?zoom=2&resize=400%2C240&ssl=1', 'movie', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.'),
-  //   // tslint:disable-next-line:max-line-length
-  //   new Movies('https://i2.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/doctor-sleep-trailer.png?resize=400%2C240&ssl=1', 'movie', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.'),
-  //   // tslint:disable-next-line:max-line-length
-  //   new Movies('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/ghostbusters-stills.png?resize=400%2C240&ssl=1', 'movie', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.'),
-  // ];
-  //
+
   // masterTv: TV[] = [
   //
   //   // tslint:disable-next-line:max-line-length
@@ -68,8 +56,7 @@ export class AppComponent {
   //   new Movies('https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/lobo-sysy.jpg?resize=400%2C240&ssl=1', 'Review', 'Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.'),
   // ];
 
-  selectedMovie: Movies;
-  selectedTv: TV;
+
 
   home = true;
   movies = false;

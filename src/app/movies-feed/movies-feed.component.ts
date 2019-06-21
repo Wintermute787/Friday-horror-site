@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import {FirebaseListObservable, FirebaseObjectObservable} from 'angularfire2/database';
+import {MoviesService} from '../movies.service';
 
 @Component({
   selector: 'app-movies-feed',
@@ -7,9 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MoviesFeedComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router, private moviesService: MoviesService) { }
+  movies: FirebaseListObservable<any[]>;
 
   ngOnInit() {
+    this.movies = this.moviesService.getMovies();
   }
 
 }

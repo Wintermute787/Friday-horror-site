@@ -5,6 +5,7 @@ import {NewsService} from '../news.service';
 import {FirebaseListObservable, FirebaseObjectObservable} from 'angularfire2/database';
 import {FeaturedService} from '../featured.service';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -13,15 +14,19 @@ import {FeaturedService} from '../featured.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router, private newsService: NewsService, private featuredService: FeaturedService) { }
+  constructor(private router: Router,
+              private newsService: NewsService,
+              private featuredService: FeaturedService, ) { }
 
   news: FirebaseListObservable<any[]>;
   featured: FirebaseObjectObservable<any[]>;
-  currentRoute: string = this.router.url;
+
+  // currentRoute: string = this.router.url;
 
   ngOnInit() {
     this.news = this.newsService.getNews();
     this.featured = this.featuredService.getFeatured();
+
   }
 
 
