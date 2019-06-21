@@ -7,7 +7,7 @@ import {FormsModule} from '@angular/forms';
 import { routing } from './app.routing';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderListComponent } from './header-list/header-list.component';
+// import { HeaderListComponent } from './header-list/header-list.component';
 import { NavComponent } from './nav/nav.component';
 import { FeaturedContentComponent } from './featured-content/featured-content.component';
 import { NewsFeedComponent } from './news-feed/news-feed.component';
@@ -17,6 +17,8 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { VideoGamesComponent } from './video-games/video-games.component';
 import { HomeComponent } from './home/home.component';
 import { MoviesFeedComponent } from './movies-feed/movies-feed.component';
+import { TvFeedComponent } from './tv-feed/tv-feed.component';
+
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,7 +30,6 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderListComponent,
     NavComponent,
     FeaturedContentComponent,
     NewsFeedComponent,
@@ -37,7 +38,8 @@ export const firebaseConfig = {
     ReviewsComponent,
     VideoGamesComponent,
     HomeComponent,
-    MoviesFeedComponent
+    MoviesFeedComponent,
+    TvFeedComponent
   ],
   imports: [
     BrowserModule,

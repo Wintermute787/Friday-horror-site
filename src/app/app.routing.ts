@@ -1,7 +1,6 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { HeaderListComponent } from './header-list/header-list.component';
 import { NavComponent } from './nav/nav.component';
 import { FeaturedContentComponent } from './featured-content/featured-content.component';
 import { NewsFeedComponent } from './news-feed/news-feed.component';
@@ -20,6 +19,10 @@ const appRoutes: Routes = [
   {
     path: 'movies',
     component: MoviesComponent
+  },
+  {
+    path: 'tv',
+    component: TVComponent
   }
 
 
