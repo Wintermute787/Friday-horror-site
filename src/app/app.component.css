@@ -9,7 +9,7 @@
   width: 100%;
   justify-content: center;
 }
-img {
+.main__header-img {
   text-align: center;
 
   /* max-width: 100%;
@@ -32,6 +32,154 @@ img {
   letter-spacing: 5px;
   color: white;
 }
+
+.main__nav-list--content a:hover {
+  color: red;
+}
+
+#main__footer-wrap {
+  background: black;
+  width: 100%;
+  float: left;
+  position: relative;
+  display: block;
+
+
+}
+
+.main__footer-top {
+  padding: 40px 0;
+  width: 100%;
+  float: left;
+  position: relative;
+  display: block;
+
+}
+
+.main__footer-box {
+  width: 1160px;
+  margin: 0 auto;
+  height: 100%;
+  display: block;
+}
+
+.main__footer-logo {
+  line-height: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  position: relative;
+  display: block;
+}
+
+.main__footer-soc {
+  margin-bottom: 30px;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.main__footer-soc--list {
+  text-align: center;
+  width: 100%;
+  float: left;
+  position: relative;
+  list-style: none;
+  display: flex;
+
+  justify-content: center;
+}
+
+.main__footer-soc--list li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.main__footer-soc--list li:first-child {
+  margin-left: 0;
+}
+
+.main__footer-soc--list li i {
+
+  border-radius: 50%;
+  background: #333;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1;
+  margin-left: 8px;
+  padding-top: 10px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+
+
+}
+
+.main__footer-soc--list li a:visited {
+  opacity: 1;
+  text-decoration: none;
+  transition: color .25s, background .25s, opacity .25s;
+}
+
+#facebook:hover {
+  background: #3b5997;
+}
+
+#twitter:hover {
+  background: #00aced;
+
+}
+
+#instagram:hover {
+  background: green;
+}
+
+#youtube:hover {
+  background: #f00;
+}
+
+.main__footer-menu--wrap {
+  width: 100%;
+  float: left;
+  position: relative;
+
+}
+
+.main__footer-menu {
+  width: 100%;
+  float: left;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.main__footer-menu--container {
+  display: block;
+}
+
+.main__footer-menu--ul {
+  text-align: center;
+  width: 100%;
+  list-style: none;
+
+}
+
+.main__footer-menu ul li:first-child {
+  margin-left: 0;
+}
+
+.main__footer-menu ul li {
+  display: inline-block;
+  margin: 0 0 10px 20px;
+  margin-left: 40px;
+  color:white;
+  text-transform: uppercase;
+}
+
 
 
 
