@@ -1,7 +1,24 @@
 <div class="main">
   <div class="container">
-    <app-nav></app-nav>
-    <app-home></app-home>
+<!--    <app-nav></app-nav>-->
+<!--    <app-home></app-home>-->
+    <div class="main__nav">
+      <div class="main__img">
+        <img src="https://bloody-disgusting.com/wp-content/uploads/2018/11/BD_HEADER-2.png" alt="">
+      </div>
+      <div class="main__nav-content">
+        <nav class="main__nav-nav">
+          <ul class="main__nav-list--content">
+            <li><a routerLink="">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+    <router-outlet></router-outlet>
   </div>
 </div>
 

@@ -3,3 +3,44 @@
   display: block;
   background-attachment: fixed;
 }
+
+.main__img {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+img {
+  text-align: center;
+
+  /* max-width: 100%;
+  height: auto; */
+  height: 112px;
+  width: 720px;
+}
+
+.main__nav-list--content {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.main__nav-list--content a{
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+

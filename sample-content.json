@@ -29,9 +29,36 @@
   "featured": [
     {
       "image": "https://i2.wp.com/bloody-disgusting.com/wp-content/uploads/2018/03/Alone-in-the-Dark-e1559593753536.jpg?zoom=2&resize=590%2C354&ssl=1",
-      "title": "10 Great Slasher Films that you maybe haven\\'t seen yet",
+      "title": "10 Great Slasher Films that you maybe haven't seen yet",
       "description": "Of all the many sub generes of Horror, one of the most popular and well-loved is the slasher..."
     }
+  ],
+  "movies":[
+    {
+      "image": "https://i2.wp.com/bloody-disgusting.com/wp-content/uploads/2019/05/rambo.png?resize=400%2C240&ssl=1",
+      "type": "Movie",
+      "title": "Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa",
+      "description": "Sliced drowning. Haunt suicide silent, gory as demonic alarming, buried in fallen angel. Pain needles commodo drool rabid nightmare. Dark mutilation rotten, Blood hair raising or, blood in eyeball. Mental hospital sliced drowning. Trapped flesh grotesque squeal, bloodcurdling chilling hair-raising spooky hazardous daring. Edginess anxiety tension, claw at deteriorated in, creep a tear. Breathin."
+    },
+    {
+      "image": "https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2017/10/Black-Christmas-2.jpg?resize=400%2C240&ssl=1",
+      "type": "Movie",
+      "title": "Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.",
+      "description": "Children creepy deranged, ashes a killer a, monster mental hospital. Mental hospital sliced drowning. Dark mutilation rotten, Blood hair raisin."
+    },
+    {
+      "image": "https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/DS-11206r-e1560441816998.jpg?zoom=2&resize=400%2C240&ssl=1",
+      "type": "Movie",
+      "title": "Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.",
+      "description": "Bruises moon torture demons devil or vampire werewolf wind. Flames at crazy slicing with murderer gore. Haunt sliced at choking cut drool. Haunt tearing murder crying an mental corpse zombies evil, chainsaw motionless gory. Haunt tearing murder crying an mental corpse zombies evil, chainsaw motionless gory. "
+    },
+    {
+      "image": "https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2019/06/ghostbusters-stills.png?resize=400%2C240&ssl=1",
+      "type": "Movie",
+      "title": "Nam varius ipsum eget nulla facilisis porttitor. Vestibulum vitae iaculis massa.",
+      "description": "Bleak, monstrosity dread with demon scourge terrifying. Disembowel stab, chains dungeon torment fiendish, gruesome psychopath monster captive, a mutilation possession obsession at fanatic."
+    }
+
   ]
 }
 

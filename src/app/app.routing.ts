@@ -17,6 +17,10 @@ const appRoutes: Routes = [
     path: '',
     component: HomeComponent
   },
+  {
+    path: 'movies',
+    component: MoviesComponent
+  }
 
 
 ];
